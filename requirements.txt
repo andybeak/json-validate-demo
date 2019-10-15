@@ -1,0 +1,5 @@
+Click==7.0
+colorama==0.4.1
+jsonref==0.2
+openapi2jsonschema==0.9.0
+PyYAML==5.1.2

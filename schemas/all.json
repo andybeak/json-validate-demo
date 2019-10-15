@@ -1,0 +1,22 @@
+{
+  "oneOf": [
+    {
+      "$ref": "_definitions.json#/definitions/Order"
+    },
+    {
+      "$ref": "_definitions.json#/definitions/User"
+    },
+    {
+      "$ref": "_definitions.json#/definitions/Category"
+    },
+    {
+      "$ref": "_definitions.json#/definitions/Tag"
+    },
+    {
+      "$ref": "_definitions.json#/definitions/Pet"
+    },
+    {
+      "$ref": "_definitions.json#/definitions/ApiResponse"
+    }
+  ]
+}

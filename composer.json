@@ -1,0 +1,15 @@
+{
+    "name": "andybeak/json-parse-demo",
+    "description": "An example of parsing JSON input",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Beak",
+            "email": "andy.beak@gmail.com"
+        }
+    ],
+    "require": {
+        "swaggest/json-schema": "^0.12.21"
+    }
+}
