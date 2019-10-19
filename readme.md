@@ -30,3 +30,14 @@ You will need to correct the path to references, for example:
     // must be edited to include the relative path from the PHP to the definition
     "$ref": "./schemas/_definitions.json#/definitions/Category"
  
+ ## Installing virtualenv
+ 
+ Refer to the [https://virtualenv.pypa.io/en/stable/installation/](virtualenv) documentation for instructions.
+ 
+ If you're using Ubuntu 18.04 then the following commands will install it for you:
+ 
+    sudo apt-get update
+    sudo apt-get install python3-pip
+    pip3 install virtualenv
+    source ~/.profile
+    
