@@ -21,4 +21,12 @@ As an example, assuming that you're using Python3 on Ubuntu 18.10, you can run:
     openapi2jsonschema http://petstore.swagger.io/v2/swagger.json
 
 Just replace the link to the [https://petstore.swagger.io/](Petstore) schema with your own Swagger definition.
+
+You will need to correct the path to references, for example:
+    
+    // this line in the schema
+    "$ref": "_definitions.json#/definitions/Category"
+    
+    // must be edited to include the relative path from the PHP to the definition
+    "$ref": "./schemas/_definitions.json#/definitions/Category"
  
